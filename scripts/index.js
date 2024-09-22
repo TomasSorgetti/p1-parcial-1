@@ -17,7 +17,8 @@ function cargar() {
   disco.nombre = pedirDato("Ingresá el nombre del disco", false);
   disco.artista = pedirDato("Ingresá el artista del disco", false);
   disco.portada = pedirDato("Ingresá la imágen de portada del disco", false);
-
+  
+  // pedir las pistas
   disco.pistas = pedirPistas();
 
   discos.push(disco);
